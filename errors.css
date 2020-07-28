@@ -1,0 +1,42 @@
+.error {
+  font-family: Roboto, -apple-system, system-ui, "Helvetica Neue", "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.error .content {
+  width: 60%;
+}
+
+.error .logo img {
+  max-height: 100px;
+  border-radius: 5px;
+}
+
+.error .code {
+  font-weight: 700;
+  font-size: 2em;
+  color: #dfdcdc;
+  margin: 2rem 0 0;
+}
+
+.error h1 {
+  font-size: 4em;
+  margin: 0 0 2rem;
+}
+
+.error .message {
+  color: #828282;
+}
+
+.error p {
+  line-height: 1.5rem;
+}
+
+.error a {
+  color: black;
+}
