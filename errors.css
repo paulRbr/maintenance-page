@@ -14,6 +14,7 @@
 
 .error .logo img {
   max-height: 100px;
+  min-height: 50px;
   border-radius: 5px;
 }
 
