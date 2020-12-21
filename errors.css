@@ -1,3 +1,8 @@
+body {
+    background: #222;
+    color: white;
+}
+
 .error {
   font-family: Roboto, -apple-system, system-ui, "Helvetica Neue", "Segoe UI", Oxygen, Ubuntu, Cantarell, "Open Sans", sans-serif;
   height: 100vh;
@@ -16,6 +21,8 @@
   max-height: 100px;
   min-height: 50px;
   border-radius: 5px;
+  background: white;
+  padding: 15px 15px 15px 0px;
 }
 
 .error .code {
@@ -31,7 +38,7 @@
 }
 
 .error .message {
-  color: #828282;
+  color: #B2B2B2;
 }
 
 .error p {
@@ -39,5 +46,5 @@
 }
 
 .error a {
-  color: black;
+  color: white;
 }
